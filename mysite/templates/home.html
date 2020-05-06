@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<p>The best finance destination to track markets & economy</p>
+<!-- <p>
+	<strong>Total User Registered :</strong> {{count}}
+</p> -->
+  {% autoescape off %}{{ data }}{% endautoescape %}
+
+{% endblock %}
